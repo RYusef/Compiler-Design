@@ -6,7 +6,7 @@ bool firstAlphabetic(string input){
     int i = 0;
     if (input[i] >= 'A' && input[i] <= 'Z' ||
         input[i] >= 'a' && input[i] <= 'z' ||
-        input[i] == '_' ||){
+        input[i] == '_'){
             return true;
     }
     return false;
@@ -18,7 +18,7 @@ bool isIdentifier(string input){
         if (input[i] >= 'A' && input[i] <= 'Z' ||
             input[i] >= 'a' && input[i] <= 'z' ||
             input[i] >= '0' && input[i] <= '9'
-            input[i] == '_' ||){
+            input[i] == '_'){
                 return true;
         }
         i++;
@@ -40,4 +40,5 @@ int main()
     }
     return 0;
 }
+
 
