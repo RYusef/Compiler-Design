@@ -25,7 +25,6 @@ void isComment(string input){
                     print(i, input);
                     break;
                 }
-                i++;
             }
         }
         i++;
@@ -43,4 +42,5 @@ int main()
     isComment(input);
     return 0;
 }
+
 
