@@ -7,7 +7,7 @@ string keywords[] = {
     "short","switch","case","default","class","struct",
     "string","bool","true","false","do","include","namespace","using","main"
 };
-int keywordCount = 27;
+int keywordCount = sizeof(keywords) / sizeof(keywords[0]);
 
 bool isKeyword(string s){
     for(int i=0; i<keywordCount; i++){
@@ -127,4 +127,5 @@ int main()
 
     return 0;
 }
+
 
