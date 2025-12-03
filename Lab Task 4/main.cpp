@@ -5,7 +5,7 @@ string keywords[] = {
     "int","float","double","char","void","if","else",
     "for","while","return","break","continue","long",
     "short","switch","case","default","class","struct",
-    "string","bool","true","false","do","include","namespace","using"
+    "string","bool","true","false","do","include","namespace","using","main"
 };
 int keywordCount = 27;
 
@@ -127,3 +127,4 @@ int main()
 
     return 0;
 }
+
